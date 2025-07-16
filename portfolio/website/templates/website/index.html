@@ -1,0 +1,394 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>jaya's portfolio</title>
+<!--
+DREAM PULSE
+https://templatemo.com/tm-536-dream-pulse
+-->
+    <link rel="stylesheet" href="{% static 'https://fonts.googleapis.com/css?family=Open+Sans:400,600'%}" />
+    <link rel="stylesheet" href="{% static 'css/all.min.css'%}" />
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css'%}" />
+    <link rel="stylesheet" href="{% static 'slick/slick.css'%}"/>    
+    <link rel="stylesheet" href="{% static 'slick/slick-theme.css'%}"/>    
+    <link rel="stylesheet" href="{% static 'css/magnific-popup.css'%}">
+    <link rel="stylesheet" href="{% static 'css/templatemo-dream-pulse.css'%}"/>
+  </head>
+  <body>
+    
+    <main class="container-fluid">
+      
+      <div class="row">        
+          <nav id="tmSidebar" class="tm-bg-black-transparent tm-sidebar">
+            
+            
+            <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
+              <i class="fas fa-bars"></i>
+            </button>
+            
+            <div class="tm-sidebar-sticky">
+              <div class="tm-brand-box">
+                <div class="tm-double-border-1">
+                  <div class="tm-double-border-2">
+                    <h1 class="tm-brand text-uppercase">Dream Pulse</h1>
+                  </div>
+                </div>
+              </div>
+                                  
+
+          
+              <ul id="tmMainNav" class="nav flex-column text-uppercase text-right tm-main-nav">
+                <li class="nav-item">
+                  <a href="#intro" class="nav-link active">
+                    <span class="d-inline-block mr-3">Intro</span>
+                    <span class="d-inline-block tm-white-rect"></span>
+                  </a>
+                </li>
+                </li>
+                <li class="nav-item">
+                  <a href="#blog" class="nav-link">
+                    <span class="d-inline-block mr-3">blog</span>
+                    <span class="d-inline-block tm-white-rect"></span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#about" class="nav-link">
+                    <span class="d-inline-block mr-3">About</span>
+                    <span class="d-inline-block tm-white-rect"></span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#work" class="nav-link">
+                    <span class="d-inline-block mr-3">Work</span>
+                    <span class="d-inline-block tm-white-rect"></span>
+                  </a>
+                </li>
+                
+                
+                <li class="nav-item">
+                  <a href="#talk" class="nav-link">
+                    <span class="d-inline-block mr-3">Let's Talk</span>
+                    <span class="d-inline-block tm-white-rect"></span>
+                  </a>
+                </li>
+              </ul>
+
+          
+              <ul class="nav flex-row tm-social-links">
+                
+                <li class="nav-item">
+                  <a href="https://github.com/jayashri0104" class="nav-link tm-social-link">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="https://www.linkedin.com/in/jayashri-patil-a19626373?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="nav-link tm-social-link">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="https://dribbble.com" class="nav-link tm-social-link">
+                    <i class="fab fa-dribbble"></i>
+                  </a>
+                </li>
+                
+                <li class="nav-item">
+                  <a href="https://www.instagram.com/punam_.001/?utm_source=qr&r=nametag" class="nav-link tm-social-link">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                </li><li class="nav-item">
+                  <a href="https://youtube.com" class="nav-link tm-social-link">
+                    <i class="fab fa-youtube"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link tm-social-link">
+                    <i class="fab fa-gitlab"></i>
+                  </a>
+                </li>
+
+              </ul>
+              <footer class="text-center text-white small">
+                <p class="mb--0 mb-2">2025 Dream Pulse</p>
+                <p class="mb-0">Design:
+                  <a rel="nofollow" href="https://templatemo.com" class="tm-footer-link">Template Mo</a>
+                </p>
+              </footer>
+            </div>
+          </nav>
+          
+          <main role="main" class="ml-sm-auto col-12">
+            <div
+              class="parallax-window"
+              data-parallax="scroll"
+              data-image-src="{% static 'img/dream-pulse-header.jpg'%}">
+              <div class="tm-section-wrap">
+                <section id="intro" class="tm-section">
+                    <div class="tm-bg-white-transparent tm-intro">
+
+   
+                         <style>
+                        .profile-pic {
+                            width: 100px; 
+                           height: 100px;
+                           border-radius: 50%; 
+                            object-fit: cover; 
+                           border: 3px solid #ccc; /* 
+                        }
+                       .profile-container {
+                            text-align: center;
+                            margin-top: 50px;
+                        }
+                        .name {
+                           font-size: 24px;
+                           font-weight: bold;
+                        }
+                    </style>
+
+                          <center>
+                          <div class="profile-container">
+                              <img src="{%static 'img/punam.jpeg'%}" alt="Profile Photo" class="profile-pic">
+                             <p><h6>Hello I'm</h6></p>
+                              <p class="name">JAYASHRI PATIL</p>
+                          </div> 
+                        </center>
+                        <h2 class="tm-section-title mb-5 text-uppercase tm-color-primary">Introduction  to myself</h2>
+                        <p class="tm-color-gray">
+                        
+
+                      
+
+                      Hello, my name is Jayashri Patil. I am a dedicated and hardworking student. I am interested in programming and web development. I have knowledge of HTML, CSS, Python, and Django. I enjoy creating websites and learning new technologies. My goal is to become a good software developer and build a successful career in the IT field. In my free time, I like exploring coding concepts and improving my skills.
+
+
+                      ---
+   
+                            <!-- Font Awesome CDN--> 
+                      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+                      <style>
+                        .social-icons a {
+                          color: black; /* icon color */
+                          font-size: 24px; /* icon size */
+                          margin: 0 10px; /* space between icons */
+                          text-decoration: none;
+                        }
+
+                        .social-icons a:hover {
+                          color: #00aced; /* hover color */
+                        }
+
+                        body {
+                          background: #222; /* test background */
+                        }
+
+                        .social-icons {
+                          text-align: center;
+                          padding: 20px;
+                        }
+                      </style>
+                    <body>
+
+                      <div class="social-icons">
+                        <a href="https://github.com/jayashri0104" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/jayashri-patil-a19626373?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://dribbble.com" target="_blank"><i class="fab fa-dribbble"></i></a>
+                        <a href="https://www.instagram.com/punam_.001/?utm_source=qr&r=nametag" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-gitlab"></i></a>
+                      </div>
+
+                    </body>
+                     
+                     
+                    </div>              
+                </section>
+            </div>            
+          </div>
+
+          
+
+            <div class="tm-section-wrap bg-white">
+                    <section id="blog" class="row tm-section">
+                      <div class="col-xl-6">
+                        <div class="tm-section-half">    
+                            
+                                              
+                            <h2 class="tm-section-title tm-color-primary mb-5">Blog<h2>
+                            <p class="mb-5">
+
+                                  
+                        
+
+                    
+
+                </div> 
+            
+                </div>  
+                </section>                         
+            </div>       
+                                  
+                
+
+    
+          <div class="tm-section-wrap bg-white">
+            <section id="about" class="row tm-section">
+              <div class="col-xl-6">
+                <div class="tm-section-half">    
+                    <div><i class="fas fa-6x fa-balance-scale mb-5 tm-section-icon"></i></div>                        
+                    <h2 class="tm-section-title tm-color-primary mb-5">About Us</h2>
+                    <p class="mb-5">
+
+                          My name is Jayashri Patil. I am a student (or mention your profession if working). I am interested in programming, web development, and learning new technologies. I like creating HTML, CSS, and Django projects practically to strengthen my concepts. Apart from studies, I enjoy spending time learning new skills and exploring career opportunities in software development.
+                         </p>
+                         <p>
+                          I am hardworking, focused, and always ready to improve myself. My goal is to build a strong career in IT with deep practical knowledge.
+                           </p>
+                </div>
+              </div>
+              <div class="col-xl-6">
+                <div class="tm-section-half">
+                    <div><i class="far fa-6x fa-building mb-5 tm-section-icon"></i></div>
+                    <h2 class="tm-section-title tm-color-primary mb-5">Company Profile</h2> <img src="{%static 'img/tachyonbite.jpeg'%}" width="300"height="100" alt="Profile Photo"><br>
+                    <p class="mb-5">
+                      TachyonByte Technologies is an Indian Startup company that works on Software as a Service (SaaS) Offerings for underserved markets and Boosting Evolution with Technology. They are based in Nashik, Maharashtra, India. Their mission is to Boost Human Evolution with Technology. They have a team of experienced and passionate professionals who are working to make technology accessible to everyone and contribute in evolution of this world.
+                    </p>
+                   
+                    
+                </div>
+              </div>
+            </section>
+          </div>
+            
+          <div class="tm-section-wrap bg-white">
+            <section id="work" class="row tm-section">
+              <div class="col-12">
+                <div class="w-100 tm-double-border-1 tm-border-gray">
+                    <div class="tm-double-border-2 tm-border-gray tm-box-pad">
+                      <div class="tm-gallery-wrap">
+                          <h2 class="tm-color-primary tm-section-title mb-4 ml-2">Our Work</h2>
+                          <div class="tm-gallery">
+                            <div class="tm-gallery-item">                        
+                              <figure class="effect-bubba">
+                                <img src="{% static 'img/gallery/001.jpeg'%}" width="300" height="300" ><alt="Our Work Image" class="img-fluid">
+                                <figcaption>
+                                  <h2>weather<br><span>app</span></h2>
+                                  <!--<p>weather app.</p>-->
+                                  <a href="{% static  'img/gallery/large/001.jpeg'%}">View more</a>
+                                </figcaption>
+                              </figure>
+                            </div>
+                            <div class="tm-gallery-item">
+                              <figure class="effect-bubba">
+                                <img src="{% static 'img/gallery/003.jpeg'%}"width="300" height="300"><alt="Our Work Image" class="img-fluid">
+                                <figcaption>
+                                  <h2>number<br><span>kundali</span></h2>
+                                  <!--<p>Bubba likes to appear out of thin air.</p>-->
+                                  <a href="{% static 'img/gallery/large/003.jpeg'%}">View more</a>
+                                </figcaption>
+                              </figure>
+                            </div>                     
+                              
+                          </div>
+                      </div>                        
+                    </div>                  
+                  </div>     
+              </div>         
+            </section>
+          </div>
+            
+          
+          
+            
+          <div class="tm-section-wrap bg-white">
+            <section id="talk" class="row tm-section">
+                <div class="col-xl-6 mb-5">
+                  <div class="tm-double-border-1 tm-border-gray">
+                    <div class="tm-double-border-2 tm-border-gray tm-box-pad">
+                        <h2 class="tm-color-primary tm-section-title mb-4">contact Us</h2>
+                        <p class="mb-4">
+                          Address:chalisgaon,jalgaon, Maharashtra
+                        </p>
+                        <p class="mb-3"> 
+                          Phone :+91 7038803068<br>
+                          Email:jaysharipatil01@gmail.com
+                        </p>
+                                                  <!-- Font Awesome CDN -->
+                            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+                            <style>
+                              .social-icons a {
+                                color: black; /* icon color */
+                                font-size: 24px; /* icon size */
+                                margin: 0 10px; /* space between icons */
+                                text-decoration: none;
+                              }
+
+                              .social-icons a:hover {
+                                color: #00aced; /* hover color */
+                              }
+
+                              body {
+                                background: #222; /* test background */
+                              }
+
+                              .social-icons {
+                                text-align: center;
+                                padding: 20px;
+                              }
+                            </style>
+                          <body>
+
+                            <div class="social-icons">
+                              <a href="https://github.com/jayashri0104" target="_blank"><i class="fab fa-github"></i></a>
+                              <a href="https://www.linkedin.com/in/jayashri-patil-a19626373?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i></a>
+                              <a href="https://dribbble.com" target="_blank"><i class="fab fa-dribbble"></i></a>
+                              <a href="https://www.instagram.com/punam_.001/?utm_source=qr&r=nametag" target="_blank"><i class="fab fa-instagram"></i></a>
+                              <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+                              <a href="#" target="_blank"><i class="fab fa-gitlab"></i></a>
+                            </div>
+
+                          </body>
+
+                    </div>                    
+                  </div>                  
+                </div>
+                <div class="col-xl-6 mb-5">
+                  <div class="tm-contact-form-wrap">
+                    <form action="" method="POST" class="tm-contact-form">
+                     {% csrf_token %}
+                        <div class="form-group">
+                          <input type="text" id="contact_name" name="contact_name" class="form-control rounded-0 border-top-0 border-right-0 border-left-0" placeholder="Your Name" required="" />
+                        </div>
+                        <div class="form-group">
+                          <input type="email" id="contact_email" name="contact_email" class="form-control rounded-0 border-top-0 border-right-0 border-left-0" placeholder="Your Email" required="" />
+                        </div>
+                
+                        <div class="form-group">
+                          <textarea rows="4" id="contact_message" name="contact_message" class="form-control rounded-0 border-top-0 border-right-0 border-left-0" placeholder="Message..." required=""></textarea>
+                        </div>
+                
+                        <div class="form-group mb-0">
+                          <button type="submit" class="btn rounded-0 d-block ml-auto tm-btn-primary">
+                            SEND
+                          </button>
+                        </div>
+                      </form>
+                  </div>                    
+                </div>
+              </section>
+          </div>
+        </main>        
+      </div>
+    </div>
+    <script src="{% static 'js/jquery.min.js'%}"></script>
+    <script src="{% static 'js/jquery.singlePageNav.min.js'%}"></script>
+    <script src="{% static 'js/parallax.min.js'%}"></script>
+    <script src="{% static 'slick/slick.min.js'%}"></script>
+    <script src="{% static 'js/jquery.magnific-popup.min.js'%}"></script>
+    <script src="{% static 'js/templatemo-scripts.js'%}"></script>
+  </body>
+</html>
