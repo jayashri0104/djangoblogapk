@@ -1,0 +1,30 @@
+__pycache__
+# Byte-compiled / optimized / compiled files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Distribution / build files
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Sensitive / local configuration
+.env
+
+# Logs and temporary files
+*.log
+tmp/

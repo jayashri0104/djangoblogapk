@@ -1,8 +1,9 @@
 from django.shortcuts import render
-import requests
+from blog.models import Article
 
 # Create your views here.
 def Index(request):
-    return render(request, template_name = "website/index.html")
+    Articles=Article.objects.all()
+    return render(request, "website/index.html",{'articles':Articles})
 
 
